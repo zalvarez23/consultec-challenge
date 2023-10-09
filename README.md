@@ -1,27 +1,29 @@
-# ClientManagement
+# Movies personages
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.5.
+Prueba Tecnica - Clients
 
-## Development server
+- Consiste en registros de clientes en base a ubicación (Peru, Chile, Argentina, ETc...).
+- He agregado un archivo JSON para la primera carga al localstorage.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Requisitos
 
-## Code scaffolding
+- Node.js (versión v18.17.1)
+- npm (viene con Node.js)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tecnologias
 
-## Build
+- LocaStorage
+- Clean Architecture
+- Typescript
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Adicional
 
-## Running unit tests
+- Patrones de diseño (repository, injección de dependencias, etc..)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Instalación
 
-## Running end-to-end tests
+1. Instala las dependencias: `npm install` de preferencia la version del node indicado lineas arriba.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Uso
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. client-management => Ejecuta el proyecto : `ng serve`
