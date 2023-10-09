@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Kevin1",
+    "email": "cliente1@example.com",
+    "phone": "123456789",
+    "location": {
+      "id": 1,
+      "address": "--",
+      "name": "Peru"
+    },
+    "isActive": true
+  },
+  {
+    "id": 2,
+    "name": "Kevin2",
+    "email": "cliente2@example.com",
+    "phone": "987654321",
+    "location": {
+      "id": 2,
+      "name": "Argentina",
+      "address": "Dirección 2"
+    },
+    "isActive": false
+  }
+]

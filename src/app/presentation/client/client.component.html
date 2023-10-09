@@ -1,0 +1,11 @@
+<div class="container" mat-card>
+  <app-header
+    title="Clients"
+    (handlerDownloadClients)="onHandlerDownloadClients()"
+    (handlerSearchClients)="onHandlerSearchClients($event)"
+  ></app-header>
+  <app-body
+    [dataSource]="dataSource"
+    (handlerDeleteClient)="onHandlerDeleteClient($event)"
+  ></app-body>
+</div>

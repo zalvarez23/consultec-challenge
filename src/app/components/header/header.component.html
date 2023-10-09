@@ -1,0 +1,30 @@
+<header class="container__header">
+  <div class="container__title">
+    <h1 class="mat-h3">Show all</h1>
+    <h1 class="mat-h3">Filter by</h1>
+  </div>
+  <div class="container__subtitle">
+    <mat-icon>keyboard_arrow_right</mat-icon>
+    <h1 class="mat-h3">{{ title }}</h1>
+  </div>
+
+  <button *ngIf="showButton" mat-button color="warn" routerLink="/new-client">
+    Add new client
+  </button>
+  <button
+    *ngIf="showButton"
+    mat-icon-button
+    color="accert"
+    (click)="downloadClients()"
+  >
+    <mat-icon>download</mat-icon>
+  </button>
+  <mat-form-field class="" *ngIf="showButton">
+    <input
+      matInput
+      placeholder="Buscar por nombre"
+      [(ngModel)]="searchClient"
+      (ngModelChange)="onSearchClient()"
+    />
+  </mat-form-field>
+</header>
